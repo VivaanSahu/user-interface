@@ -53,7 +53,7 @@
       border-radius: 15px;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
       backdrop-filter: blur(10px);
-      color: #fff;
+      color: #c9c903;
       width: 100%;
       max-width: 400px;
     }
@@ -81,7 +81,7 @@
     }
 
     .input-group input:focus {
-      border-bottom-color: #00bcd4;
+      border-bottom-color: #cad504;
       outline: none;
     }
 
@@ -99,14 +99,14 @@
       top: -10px;
       left: 5px;
       font-size: 12px;
-      color: #00bcd4;
+      color: #caca02;
     }
 
     button {
       width: 100%;
       padding: 12px;
       border: none;
-      background-color: #00bcd4;
+      background-color: #c5b205;;
       color: #fff;
       border-radius: 8px;
       font-size: 16px;
@@ -115,7 +115,7 @@
     }
 
     button:hover {
-      background-color: #0198a0;
+      background-color: #c5b205;
     }
 
     .signup-link {
@@ -131,32 +131,45 @@
     }
   </style>
 </head>
-<body background="C:\Users\ritur\OneDrive\Desktop\premium.jpg"></bodybackground>
+<body background="C:\Users\ritur\OneDrive\Desktop\premium.jpg"> 
+  <style>
+    .body background{
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+  </body background>
   <div class="background"></div>
   <div class="overlay"></div>
 
   <div class="center-wrapper">
     <div class="login-box">
       <form class="login-form">
-        <h2>log in</h2>
+        <h2>Sign In</h2>
 
         <div class="input-group">
-          <input type="text" required />
-          <label>Username</label>
+          <input type="email address" required />
+          <label>Email ID (username)</label>
         </div>
 
         <div class="input-group">
           <input type="password" required />
           <label>Password</label>
         </div>
+         <div class="input-group">
+          <input type="password" required />
+          <label>confrim password</label>
+         </div>
 
-        <button type="submit">log in</button>
+           <div class="input-group">
+            <input type="email verification" required>
+            <label>Email verification(only given to gmail ID)</label>
+
+           </div>
+        <button type="submit">Sign in</button>
         <p class="signup-link">Don't have an account? <a href="#">Create</a></p>
       </form>
     </div>
   </div>
 </body>
 </html>
-
-
-
